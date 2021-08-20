@@ -1,3 +1,7 @@
+/*
+No SQLi protection rn although its a simple edition this is private and database has million of entries so I need minimal exec time.
+//$stmt->bind_param("i", $user);
+*/
 <?php
   $date = new DateTime();
   $time = $date->getTimestamp();
